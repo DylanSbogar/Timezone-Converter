@@ -1,0 +1,23 @@
+{
+
+    "manifest_version": 2,
+    "name": "Timezone-Converter",
+    "version": "1.0",
+  
+    "description": "Lets the user highlight any time on a webpage, and convert it into Australian Eastern Standard Time (AEST).",
+    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+    "icons": {
+      "32": "icons/clock-32.png"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/clock-32.png",
+      "default_title": "Timezone Converter",
+      "default_popup": "popup/converter.html"
+    }
+  }
+  
